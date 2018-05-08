@@ -1,0 +1,50 @@
+@media (max-width: 1200px) {
+    .portfolio-item {
+        width: 50%;
+    }
+    #portfolio-3 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    section {
+        padding: 50px 40px;
+    }
+    #navigation label[for="drop-menu"] {
+        display: block;
+        text-align: right;
+        color: #1ac056;
+        padding: 25px;
+        font-size: 1.5em;
+        cursor: pointer;
+    }
+    #navigation #drop-menu:checked + ul {
+        display: block;
+    }
+    #navigation li {
+        display: block;
+    }
+    #navigation ul {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .column {
+        width: 100%;
+    }
+    .portfolio-item {
+        width: 100%;
+    }
+    #contact,
+    #contact h3 {
+        text-align: center;
+    }
+    section {
+        padding: 40px 20px;
+    }
+    #social-media a {
+        margin: 0 10px;
+    }
+}
